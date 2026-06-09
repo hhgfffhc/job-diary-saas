@@ -1,0 +1,47 @@
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Login==0.6.2
+python-dotenv==1.0.0
+SQLAlchemy==2.0.21
+psycopg2-binary==2.9.7
+
+# Celery & Redis
+Celery==5.3.1
+redis==5.0.0
+celery-beat==2.5.0
+
+# Email
+python-dotenv==1.0.0
+
+# PDF Generation
+reportlab==4.0.7
+Pillow==10.0.0
+
+# Stripe
+stripe==5.15.0
+
+# Security
+Werkzeug==2.3.7
+cryptography==41.0.3
+
+# Admin & CLI
+Click==8.1.7
+
+# WSGI Server (for production)
+gunicorn==21.2.0
+
+# AWS/Cloud Support (optional)
+boto3==1.28.29
+
+# Database migrations
+Flask-Migrate==4.0.5
+alembic==1.12.0
+
+# Logging & Monitoring
+python-json-logger==2.0.7
+
+# Request validation
+marshmallow==3.20.1
+
+# Rate limiting (optional)
+Flask-Limiter==3.5.0
